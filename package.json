@@ -1,0 +1,32 @@
+{
+  "name": "registerfastify",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "fastify": "^2.12.0",
+    "fastify-bearer-auth": "^4.2.0",
+    "fastify-jwt": "^1.2.1",
+    "fastify-plugin": "^1.6.1",
+    "fastify-sequelize": "^1.0.4",
+    "jsonwebtoken": "^8.5.1",
+    "log4js": "^6.1.2",
+    "lucene": "^2.1.1",
+    "lucene-query-parser": "^1.2.0",
+    "mongoose": "^5.9.2",
+    "morgan": "^1.9.1",
+    "nodemon": "^2.0.2",
+    "password-hash": "^1.2.2",
+    "solr": "^0.3.0",
+    "solr-client": "^0.7.1",
+    "solr-node": "^1.2.1"
+  }
+}

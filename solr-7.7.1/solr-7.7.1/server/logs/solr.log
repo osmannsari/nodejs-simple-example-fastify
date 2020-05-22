@@ -1,0 +1,50 @@
+2020-04-23 09:27:27.328 INFO  (main) [   ] o.e.j.u.log Logging initialized @13624ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-04-23 09:27:30.770 WARN  (main) [   ] o.e.j.s.AbstractConnector Ignoring deprecated socket close linger time
+2020-04-23 09:27:31.068 INFO  (main) [   ] o.e.j.s.Server jetty-9.4.14.v20181114; built: 2018-11-14T21:20:31.478Z; git: c4550056e785fb5665914545889f21dc136ad9e6; jvm 1.8.0_241-b07
+2020-04-23 09:27:31.307 INFO  (main) [   ] o.e.j.d.p.ScanningAppProvider Deployment monitor [file:///C:/Users/osman.sari/Desktop/registerFastify/solr-7.7.1/solr-7.7.1/server/contexts/] at interval 0
+2020-04-23 09:27:33.738 INFO  (main) [   ] o.e.j.w.StandardDescriptorProcessor NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+2020-04-23 09:27:35.231 INFO  (main) [   ] o.e.j.s.session DefaultSessionIdManager workerName=node0
+2020-04-23 09:27:35.232 INFO  (main) [   ] o.e.j.s.session No SessionScavenger set, using defaults
+2020-04-23 09:27:35.632 INFO  (main) [   ] o.e.j.s.session node0 Scavenging every 600000ms
+2020-04-23 09:27:36.538 INFO  (main) [   ] o.a.s.u.c.SSLCredentialProviderFactory Processing SSL Credential Provider chain: env;sysprop
+2020-04-23 09:27:37.080 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter Using logger factory org.apache.logging.slf4j.Log4jLoggerFactory
+2020-04-23 09:27:37.198 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter  ___      _       Welcome to Apache Solr™ version 7.7.1
+2020-04-23 09:27:37.199 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter / __| ___| |_ _   Starting in standalone mode on port 8983
+2020-04-23 09:27:37.199 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter \__ \/ _ \ | '_|  Install dir: C:\Users\osman.sari\Desktop\registerFastify\solr-7.7.1\solr-7.7.1
+2020-04-23 09:27:37.495 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter |___/\___/_|_|    Start time: 2020-04-23T09:27:37.495Z
+2020-04-23 09:27:40.167 INFO  (main) [   ] o.a.s.c.SolrResourceLoader Using system property solr.solr.home: C:\Users\osman.sari\Desktop\registerFastify\solr-7.7.1\solr-7.7.1\server\solr
+2020-04-23 09:27:40.366 INFO  (main) [   ] o.a.s.c.SolrXmlConfig Loading container configuration from C:\Users\osman.sari\Desktop\registerFastify\solr-7.7.1\solr-7.7.1\server\solr\solr.xml
+2020-04-23 09:27:45.029 INFO  (main) [   ] o.a.s.c.SolrXmlConfig MBean server found: com.sun.jmx.mbeanserver.JmxMBeanServer@78a2da20, but no JMX reporters were configured - adding default JMX reporter.
+2020-04-23 09:27:48.720 INFO  (main) [   ] o.a.s.h.c.HttpShardHandlerFactory Host whitelist initialized: WhitelistHostChecker [whitelistHosts=null, whitelistHostCheckingEnabled=true]
+2020-04-23 09:27:55.900 INFO  (main) [   ] o.a.s.c.TransientSolrCoreCacheDefault Allocating transient cache for 2147483647 transient cores
+2020-04-23 09:27:55.902 INFO  (main) [   ] o.a.s.h.a.MetricsHistoryHandler No .system collection, keeping metrics history in memory.
+2020-04-23 09:27:56.438 INFO  (main) [   ] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.node' (registry 'solr.node') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@78a2da20
+2020-04-23 09:27:56.439 INFO  (main) [   ] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.jvm' (registry 'solr.jvm') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@78a2da20
+2020-04-23 09:27:56.453 INFO  (main) [   ] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.jetty' (registry 'solr.jetty') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@78a2da20
+2020-04-23 09:27:58.052 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Found 1 core definitions underneath C:\Users\osman.sari\Desktop\registerFastify\solr-7.7.1\solr-7.7.1\server\solr
+2020-04-23 09:27:58.052 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Cores are: [music]
+2020-04-23 09:27:59.787 INFO  (coreLoadExecutor-9-thread-1) [   x:music] o.a.s.c.SolrResourceLoader [music] Added 58 libs to classloader, from paths: [/C:/Users/osman.sari/Desktop/registerFastify/solr-7.7.1/solr-7.7.1/contrib/clustering/lib, /C:/Users/osman.sari/Desktop/registerFastify/solr-7.7.1/solr-7.7.1/contrib/extraction/lib, /C:/Users/osman.sari/Desktop/registerFastify/solr-7.7.1/solr-7.7.1/contrib/langid/lib, /C:/Users/osman.sari/Desktop/registerFastify/solr-7.7.1/solr-7.7.1/contrib/velocity/lib, /C:/Users/osman.sari/Desktop/registerFastify/solr-7.7.1/solr-7.7.1/dist]
+2020-04-23 09:28:01.993 INFO  (main) [   ] o.e.j.s.h.ContextHandler Started o.e.j.w.WebAppContext@561b6512{/solr,file:///C:/Users/osman.sari/Desktop/registerFastify/solr-7.7.1/solr-7.7.1/server/solr-webapp/webapp/,AVAILABLE}{C:\Users\osman.sari\Desktop\registerFastify\solr-7.7.1\solr-7.7.1\server/solr-webapp/webapp}
+2020-04-23 09:28:02.593 INFO  (main) [   ] o.e.j.s.AbstractConnector Started ServerConnector@6111ba37{HTTP/1.1,[http/1.1]}{0.0.0.0:8983}
+2020-04-23 09:28:02.593 INFO  (main) [   ] o.e.j.s.Server Started @48894ms
+2020-04-23 09:28:06.082 INFO  (coreLoadExecutor-9-thread-1) [   x:music] o.a.s.c.SolrConfig Using Lucene MatchVersion: 7.7.1
+2020-04-23 09:28:06.935 INFO  (coreLoadExecutor-9-thread-1) [   x:music] o.a.s.s.IndexSchema [music] Schema name=default-config
+2020-04-23 09:28:10.851 INFO  (coreLoadExecutor-9-thread-1) [   x:music] o.a.s.s.IndexSchema Loaded schema default-config/1.6 with uniqueid field id
+2020-04-23 09:28:11.316 INFO  (coreLoadExecutor-9-thread-1) [   x:music] o.a.s.c.CoreContainer Creating SolrCore 'music' using configuration from instancedir C:\Users\osman.sari\Desktop\registerFastify\solr-7.7.1\solr-7.7.1\server\solr\music, trusted=true
+2020-04-23 09:28:11.587 INFO  (coreLoadExecutor-9-thread-1) [   x:music] o.a.s.m.r.SolrJmxReporter JMX monitoring for 'solr.core.music' (registry 'solr.core.music') enabled at server: com.sun.jmx.mbeanserver.JmxMBeanServer@78a2da20
+2020-04-23 09:28:11.884 INFO  (coreLoadExecutor-9-thread-1) [   x:music] o.a.s.c.SolrCore [[music] ] Opening new SolrCore at [C:\Users\osman.sari\Desktop\registerFastify\solr-7.7.1\solr-7.7.1\server\solr\music], dataDir=[C:\Users\osman.sari\Desktop\registerFastify\solr-7.7.1\solr-7.7.1\server\solr\music\data\]
+2020-04-23 09:28:12.353 INFO  (coreLoadExecutor-9-thread-1) [   x:music] o.a.s.r.XSLTResponseWriter xsltCacheLifetimeSeconds=5
+2020-04-23 09:28:20.331 INFO  (coreLoadExecutor-9-thread-1) [   x:music] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2020-04-23 09:28:20.331 INFO  (coreLoadExecutor-9-thread-1) [   x:music] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2020-04-23 09:28:20.367 INFO  (coreLoadExecutor-9-thread-1) [   x:music] o.a.s.u.CommitTracker Hard AutoCommit: if uncommitted for 15000ms; 
+2020-04-23 09:28:20.368 INFO  (coreLoadExecutor-9-thread-1) [   x:music] o.a.s.u.CommitTracker Soft AutoCommit: disabled
+2020-04-23 09:28:20.615 INFO  (coreLoadExecutor-9-thread-1) [   x:music] o.a.s.s.SolrIndexSearcher Opening [Searcher@1eb7a947[music] main]
+2020-04-23 09:28:20.716 INFO  (coreLoadExecutor-9-thread-1) [   x:music] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: C:\Users\osman.sari\Desktop\registerFastify\solr-7.7.1\solr-7.7.1\server\solr\music\conf
+2020-04-23 09:28:20.800 INFO  (coreLoadExecutor-9-thread-1) [   x:music] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2020-04-23 09:28:20.809 INFO  (coreLoadExecutor-9-thread-1) [   x:music] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=_text_,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+2020-04-23 09:28:20.833 INFO  (coreLoadExecutor-9-thread-1) [   x:music] o.a.s.h.ReplicationHandler Commits will be reserved for 10000ms.
+2020-04-23 09:28:20.862 INFO  (coreLoadExecutor-9-thread-1) [   x:music] o.a.s.u.UpdateLog Could not find max version in index or recent updates, using new clock 1664755014945472512
+2020-04-23 09:28:20.867 INFO  (searcherExecutor-10-thread-1-processing-x:music) [   x:music] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@1eb7a947[music] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+2020-04-23 09:28:20.867 INFO  (searcherExecutor-10-thread-1-processing-x:music) [   x:music] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2020-04-23 09:28:20.868 INFO  (searcherExecutor-10-thread-1-processing-x:music) [   x:music] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2020-04-23 09:28:20.884 INFO  (searcherExecutor-10-thread-1-processing-x:music) [   x:music] o.a.s.c.SolrCore [music] Registered new searcher Searcher@1eb7a947[music] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
