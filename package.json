@@ -18,7 +18,7 @@
     "fastify-plugin": "^1.6.1",
     "fastify-sequelize": "^1.0.4",
     "jsonwebtoken": "^8.5.1",
-    "log4js": "^6.1.2",
+    "log4js": "^6.4.0",
     "lucene": "^2.1.1",
     "lucene-query-parser": "^1.2.0",
     "mongoose": "^5.9.2",
