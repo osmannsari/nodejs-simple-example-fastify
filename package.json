@@ -17,7 +17,7 @@
     "fastify-jwt": "^1.2.1",
     "fastify-plugin": "^1.6.1",
     "fastify-sequelize": "^1.0.4",
-    "jsonwebtoken": "^8.5.1",
+    "jsonwebtoken": "^9.0.0",
     "log4js": "^6.1.2",
     "lucene": "^2.1.1",
     "lucene-query-parser": "^1.2.0",
